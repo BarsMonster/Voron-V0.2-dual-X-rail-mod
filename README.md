@@ -1,4 +1,4 @@
-# Dual X-rail mod fo Voron v0.2
+# Dual X-rail mod fo Voron v0.2 - beta0
 <img width="1328" height="848" alt="image" src="https://github.com/user-attachments/assets/ae01ae8a-5e38-4bd2-af1d-d7aafe375e90" />
 
 
