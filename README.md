@@ -15,7 +15,7 @@ Mount point is kept as-is to keep compatibility with all printheads.
 # Travel range
 
 * XY travel range is unaffected.
-* Z travel range is increased by 4mm.
+* Z travel range is increased by 4mm (if allowed by Z-axis). You might need to shift Z rails up few mm if you don't reach Z=0mm level.
 * Free space above carriage is reduced by 4mm, so you will benefit with any of tophat mods with more space.
 
 # Requires
