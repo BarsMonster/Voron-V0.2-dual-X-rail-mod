@@ -1,5 +1,6 @@
 # Dual X-rail mod fo Voron v0.2
 This is a successor to https://github.com/BarsMonster/Voron-V0-dual-rail-mini-aftersherpa
+
 One of the limitations on the path to better print quality, higher accelerations, less ringing is rigidity of the printer. Weakest point in Voron V0 is arguably X-rail carriage. I believe that dual MGN7 offers more rigidity / less play than even single MGN9 rail due to less "amplification of backlash". In my view the only competing single-rail approach offering similar rigidity is Pandora-style rail mount on the front (https://github.com/MasturMynd/Pandora), preferably with wide rail (MGW7 / MGW9) - but it requires significantly more changes to the printer.
 
 This mod still requires raising X extrusion by 4mm by other mods.
