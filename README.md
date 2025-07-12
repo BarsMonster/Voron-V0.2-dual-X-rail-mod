@@ -8,9 +8,10 @@ One of the limitations on the path to better print quality, higher accelerations
 
 This mod still requires raising X extrusion by 4mm by other mods.
 It should be compatible with all v0.2 printheads, and especially [Dragon Burner](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner). 
-6 heat set inserts in the bottom part are placeholders - for potential mount of print head by 2-3 points for further improvement in prinhead rigidity (likely possible with Dragon Burner). For standard printheads keep these unpopulated. 
 
-Mount point is kept as-is to keep compatibility with all printheads. 
+6 heat set inserts in the bottom part are placeholders - for potential mount of print head at multiple points for further improvement in printhead rigidity (likely possible with Dragon Burner with minimal changes). For standard printheads keep these unpopulated. 
+
+Mount point is kept as-is to keep compatibility with all printheads.
 
 # Travel range
 
