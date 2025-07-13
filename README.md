@@ -11,7 +11,7 @@ It should be compatible with all v0.2 printheads, and especially [Dragon Burner]
 6 heat set inserts in the bottom part are placeholders - for potential mount of print head at multiple points for further improvement in printhead rigidity (likely possible with Dragon Burner with minimal changes). For standard printheads keep these unpopulated. 
 
 # Variations
-* X_Carriage_Support_dual_rail_wide_2mm_lower_x1.stl - **Main, recommended version.** Wider body for extra rigidity. Upper part is 2mm thinner, printhead mount point is lowered by 2mm. So your printhead is only 2mm higher than stock (taking into account X-rail being 4mm higher). Uses longer heat inserts instead of drop-in M3 nuts for printhead mounting. 3 heat inserts at the bottom to install "loop" mount of Dragon Burner as a 4th mount point of the printhead (optional).
+* X_Carriage_Support_dual_rail_wide_2mm_lower_x1.stl - **Main, recommended version.** Wider body for extra rigidity. Upper part is 2mm thinner, printhead mount point is lowered by 2mm. So your printhead is only 2mm higher than stock (taking into account X-rail being 4mm higher). Uses longer heat inserts instead of drop-in M3 nuts for printhead mounting. 3 heat inserts at the bottom to install "loop" mount of Dragon Burner as a 4th mount point of the printhead (optional) or other additional hardware.
 * X_Carriage_Support_dual_rail_maxcompatible_x1 - upper part is exactly as stock v0.2, ensuring maximum possible compatibility, but raises printhead 4mm (due to higher X gantry).
 
 # Travel range
