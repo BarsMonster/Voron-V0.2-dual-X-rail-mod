@@ -11,14 +11,14 @@ It should be compatible with all v0.2 printheads, and especially [Dragon Burner]
 6 heat set inserts in the bottom part are placeholders - for potential mount of print head at multiple points for further improvement in printhead rigidity (likely possible with Dragon Burner with minimal changes). For standard printheads keep these unpopulated. 
 
 # Variations
-* X_Carriage_Support_dual_rail_2mm_lower_x1 - upper part is 2mm thinner, printhead mount point is lowered by 2mm. So your printhead is only 2mm higher than stock. **This is recommended version.** Uses longer heat inserts instead of drop-in M3 nuts.
+* X_Carriage_Support_dual_rail_wide_2mm_lower_x1.stl - **Main, recommended version.** Wider body for extra rigidity. Upper part is 2mm thinner, printhead mount point is lowered by 2mm. So your printhead is only 2mm higher than stock. Uses longer heat inserts instead of drop-in M3 nuts for printhead mounting. 3 heat inserts at the bottom to install "loop" mount of Dragon Burner as a 4th mount point of the printhead (optional).
 * X_Carriage_Support_dual_rail_maxcompatible_x1 - upper part is exactly as stock v0.2, ensuring maximum possible compatibility, but raises printhead 4mm (due to higher X gantry).
 
 # Travel range
 
 * XY travel range is unaffected.
-* Z travel range is increased by 4mm or 2mm (if allowed by Z-axis) - depending on whether you are using compatible or 2mm lower version. You might need to shift Z rails up few mm if you don't reach Z=0mm level.
-* Free space above carriage is reduced by 4mm or 2mm, so you will benefit from any of tophat mods with more space (but stock v0.2 already has some extra space, so it is less critical).
+* Z travel range is increased 2mm (if allowed by Z-axis). You might need to shift Z rails up few mm if you don't reach Z=0mm level.
+* Free space above carriage is reduced by 2mm, so you will benefit from any of tophat mods with more space (but stock v0.2 already has some extra space, so it is less critical).
 
 # Requires
 
