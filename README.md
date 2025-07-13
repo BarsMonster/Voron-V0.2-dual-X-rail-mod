@@ -1,4 +1,4 @@
-# Dual X-rail mod fo Voron v0.2 - beta0
+# Dual X-rail mod fo Voron v0.2 - beta v1
 <img width="1328" height="848" alt="image" src="https://github.com/user-attachments/assets/ae01ae8a-5e38-4bd2-af1d-d7aafe375e90" />
 
 
@@ -11,18 +11,20 @@ It should be compatible with all v0.2 printheads, and especially [Dragon Burner]
 
 6 heat set inserts in the bottom part are placeholders - for potential mount of print head at multiple points for further improvement in printhead rigidity (likely possible with Dragon Burner with minimal changes). For standard printheads keep these unpopulated. 
 
-Mount point is kept as-is to keep compatibility with all printheads.
+# Variations
+* X_Carriage_Support_dual_rail_2mm_lower_x1 - upper part is 2mm thinner, printhead mount point is lowered by 2mm. So your printhead is only 2mm higher than stock. **This is recommended version.** Uses longer heat inserts instead of drop-in M3 nuts.
+* X_Carriage_Support_dual_rail_maxcompatible_x1 - upper part is exactly as stock v0.2, ensuring maximum possible compatibility, but raises printhead 4mm (due to higher X gantry).
 
 # Travel range
 
 * XY travel range is unaffected.
-* Z travel range is increased by 4mm (if allowed by Z-axis). You might need to shift Z rails up few mm if you don't reach Z=0mm level.
-* Free space above carriage is reduced by 4mm, so you will benefit from any of tophat mods with more space (but stock v0.2 already has some extra space, so it is less critical).
+* Z travel range is increased by 4mm or 2mm (if allowed by Z-axis) - depending on whether you are using compatible or 2mm lower version. You might need to shift Z rails up few mm if you don't reach Z=0mm level.
+* Free space above carriage is reduced by 4mm or 2mm, so you will benefit from any of tophat mods with more space (but stock v0.2 already has some extra space, so it is less critical).
 
 # Requires
 
 * Second 150mm MGN7 rail with MGN7H carriage, medium preload. I personally order custom 155mm ones to allow to mod for slightly larger X-travel range (for wiping e.t.c).
 * 10xM2 nuts and 10x M2x6mm screws to mount secondary rail, print 1x standard nut carrier.
 * Mod to raise X rail by 4mm : TBD for v0.2, for v0.1 : https://github.com/camerony/VoronCustom/tree/main/V0.1_Raise_X_Axis_Extrusion_by_4mm
-* 4x M2x5mm or M2x6mm screws to mount bottom rail. Recommended to get ultrathin ones, as it's quite tight on the bottom. If screws hit extrusions, and you only have regular hex screws - you can sand them down by ~0.5mm to make thinner head.
-* 2x M3 heat inserts (when using standard top-mount for printheads)
+* 6x M2x5mm or M2x6mm screws to mount bottom rail. Recommended to get ultrathin ones, as it's quite tight on the bottom. If screws hit extrusions, and you only have regular hex screws - you can sand them down by ~0.5mm to make thinner head.
+* 2-4x M3 heat inserts. "2mm_lower" version is also using 2 extra heat inserts for printhead mounting instead of sunk m3 nuts. You can use longer heat inserts (5-7mm) for printhead mounting for maximum strength.
