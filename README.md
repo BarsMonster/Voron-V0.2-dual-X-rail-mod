@@ -29,4 +29,5 @@ It should be compatible with all v0.2 printheads, and especially [Dragon Burner]
 # Installation
 * You might need to lower Z-axis extrusions ~1-2mm to the bottom to improve clearance.
 * You will need to be more careful with wiring - as there is less space below printhead, but in good designs wiring is hidden & routed inside printhead.
-* The most tricky part is matching distance between 2 X-rails. If you have small gap there due to 3d print or extrusion variation - don't sqeese carriage, as it will apply constant preload on the bearing blocks and will make it less smooth. If you have a gap >0.1mm - add spacers or scale carriage in Z direction slightly to fit snugly. In my case there was a gap of 0.3mm and I added a spacer. 
+* The most tricky part is matching distance between 2 X-rails. If you have small gap there due to 3d print or extrusion variation - don't sqeese carriage, as it will apply constant preload on the bearing blocks and will make it less smooth. If you have a gap >0.1mm - add spacers or scale carriage in Z direction slightly to fit snugly. In my case there was a gap of 0.3mm and I added a spacer.
+* v0.2-style mount is more rigid than v0.1, so you might not need to do connection on the bottom 3 heat inserts, this is reserve for the future. 
