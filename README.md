@@ -1,4 +1,4 @@
-# Dual X-rail mod fo Voron v0.2 - beta v1
+# Dual X-rail mod fo Voron v0.2 - released, v2
 <img width="1140" height="788" alt="image" src="https://github.com/user-attachments/assets/43213127-4ae9-4957-8eb2-521ec3745fcd" />
 
 This is a successor to https://github.com/BarsMonster/Voron-V0-dual-rail-mini-aftersherpa
