@@ -20,8 +20,13 @@ It should be compatible with all v0.2 printheads, and especially [Dragon Burner]
 
 # Requires
 
-* Second 150mm MGN7 rail with MGN7H carriage, medium preload. I personally order custom 155mm ones to allow to mod for slightly larger X-travel range (for wiping e.t.c).
+* Second 150mm MGN7 rail with MGN7H carriage, medium preload. I personally order custom 155mm ones to allow to mod for slightly larger X-travel range (for wiping e.t.c), otherwise standard 150mm one will do just fine.
 * 10xM2 nuts and 10x M2x6mm screws to mount secondary rail, print 1x standard nut carrier.
 * Mod to raise X rail by 4mm : TBD for v0.2, for v0.1 : https://github.com/camerony/VoronCustom/tree/main/V0.1_Raise_X_Axis_Extrusion_by_4mm
 * 6x M2x5mm or M2x6mm screws to mount bottom rail. Recommended to get ultrathin ones, as it's quite tight on the bottom. If screws hit extrusions, and you only have regular hex screws - you can sand them down by ~0.5mm to make thinner head.
-* 2-4x M3 heat inserts. "2mm_lower" version is also using 2 extra heat inserts for printhead mounting instead of sunk m3 nuts. You can use longer heat inserts (5-7mm) for printhead mounting for maximum strength.
+* 2-4x M3 heat inserts. "2mm_lower" version is also using 2 extra heat inserts for printhead mounting instead of sunk m3 nuts. You can use longer heat inserts (5-7mm) for printhead mounting for maximum strength - this will require the most care.
+
+# Installation
+* You might need to lower Z-axis extrusions ~1-2mm to the bottom to improve clearance.
+* You will need to be more careful with wiring - as there is less space below printhead, but in good designs wiring is hidden & routed inside printhead.
+* The most tricky part is matching distance between 2 X-rails. If you have small gap there due to 3d print or extrusion variation - don't sqeese carriage, as it will apply constant preload on the bearing blocks and will make it less smooth. If you have a gap >0.1mm - add spacers or scale carriage in Z direction slightly to fit snugly. In my case there was a gap of 0.3mm and I added a spacer. 
